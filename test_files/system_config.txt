@@ -1,0 +1,5 @@
+Advanced Shell System Configuration
+Security mode: enabled
+Administrator access required for modifications.
+Administrator-approved change.
+Administrator-approved change.

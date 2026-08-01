@@ -1,0 +1,36 @@
+{
+    "protected_paths": {
+        "test_files/system_config.txt": {
+            "owner": "admin",
+            "admin": [
+                "read",
+                "write",
+                "execute"
+            ],
+            "standard": [
+                "read"
+            ]
+        },
+        "test_files/admin_script.py": {
+            "owner": "admin",
+            "admin": [
+                "read",
+                "write",
+                "execute"
+            ],
+            "standard": []
+        },
+        "test_files/public.txt": {
+            "owner": "admin",
+            "admin": [
+                "read",
+                "write",
+                "execute"
+            ],
+            "standard": [
+                "read",
+                "write"
+            ]
+        }
+    }
+}

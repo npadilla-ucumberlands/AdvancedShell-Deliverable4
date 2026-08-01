@@ -1,0 +1,45 @@
+ADVANCED SHELL DELIVERABLE 1 — TEST COMMANDS
+
+Start:
+    python -m pip install -r requirements.txt
+    python shell.py
+
+1. Built-in commands:
+    pwd
+    echo Advanced Shell Deliverable 1
+    mkdir demo
+    cd demo
+    touch sample.txt
+    ls
+    cat sample.txt
+    pwd
+    rm sample.txt
+    cd ..
+    rmdir demo
+
+2. Foreground execution:
+    python -c "import time; print('Foreground process started'); time.sleep(3); print('Foreground process finished')"
+
+3. Background execution:
+    python -c "import time; print('Background process started'); time.sleep(30); print('Background process finished')" &
+    jobs
+
+4. Foreground job control:
+    fg 1
+
+5. Kill:
+    python -c "import time; time.sleep(60)" &
+    jobs
+    kill ACTUAL_PID
+    jobs
+
+6. Error handling:
+    invalidcommand
+    cd folder_that_does_not_exist
+    cat missing.txt
+    mkdir
+    kill abc
+    fg 99
+
+7. End:
+    exit
